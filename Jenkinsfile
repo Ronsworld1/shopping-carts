@@ -22,7 +22,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('archive-app') {
       steps {
         archiveArtifacts '**/target/*.jar'
       }
